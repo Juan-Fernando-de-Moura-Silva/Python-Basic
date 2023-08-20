@@ -28,3 +28,17 @@ print(frutas[2])  # uva
 
 print(frutas[-1])  # uva
 print(frutas[-2])  # laranja
+
+lista = []
+
+lista.append(1)
+lista.append("Python")
+lista.append([40, 30, 20])
+
+print(lista)  # [1, "Python", [40, 30, 20]]
+
+lista = [1, "Python", [40, 30, 20]]
+
+lista.copy()
+
+print(lista)  # [1, "Python", [40, 30, 20]]
